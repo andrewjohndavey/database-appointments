@@ -12,8 +12,7 @@
 
 		<mule.version>3.9.0</mule.version>
     	<mule.tools.version>1.2</mule.tools.version>
-	<munit.version>1.3.6</munit.version>
-    <mule.munit.support.version>3.9.0</mule.munit.support.version>
+
     </properties>
 
 	<build>
@@ -79,9 +78,7 @@
 
         	</plugins>
 			<testResources>
-            	<testResource>
-                	<directory>src/test/munit</directory>
-            	</testResource>
+
         	<testResource>
                 <directory>src/test/resources</directory>
             </testResource>
@@ -161,18 +158,7 @@
             <version>${mule.version}</version>
             <scope>provided</scope>
         </dependency>
-    <dependency>
-            <groupId>com.mulesoft.munit</groupId>
-            <artifactId>mule-munit-support</artifactId>
-            <version>${mule.munit.support.version}</version>
-            <scope>test</scope>
-        </dependency>
-    <dependency>
-            <groupId>com.mulesoft.munit</groupId>
-            <artifactId>munit-runner</artifactId>
-            <version>${munit.version}</version>
-            <scope>test</scope>
-        </dependency>
+		
     </dependencies>
 
 	<repositories>
