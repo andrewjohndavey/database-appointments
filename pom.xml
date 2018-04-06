@@ -54,8 +54,8 @@
 	                </executions>
 	                <configuration>
 	                    <coverage>
-	                        <runCoverage>true</runCoverage>
-	                        <failBuild>true</failBuild>
+	                        <runCoverage>false</runCoverage>
+	                        <failBuild>false</failBuild>
 	                        <formats>
 	                            <format>html</format>
 	                        </formats>
